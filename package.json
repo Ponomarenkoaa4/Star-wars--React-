@@ -1,6 +1,7 @@
 {
   "name": "react-star-wars",
   "version": "0.1.0",
+  "homepage": "https://ponomarenkoaa4.github.io/Star-Wars_react/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.8",

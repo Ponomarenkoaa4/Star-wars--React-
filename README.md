@@ -4,7 +4,7 @@
 
 - `Project` https://ponomarenkoaa4.github.io/Star-Wars_react/
 - `Repository` https://github.com/Ponomarenkoaa4/Star-Wars_react
-- `StoryBook`
+- `StoryBook` https://ponomarenkoaa4.github.io/Star-Wars_react/storybook
 
 ---
 

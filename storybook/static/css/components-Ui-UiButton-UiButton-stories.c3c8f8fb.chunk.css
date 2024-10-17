@@ -1,0 +1,71 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blue: #6a83fb;
+  --color-gray: #9c9c9c;
+  --color-lightgray: #dfe2df;
+
+  --font-size-small: 14px;
+  --font-size-medium: 14px;
+  --font-family-main: sans-serif;
+  --font-bold: 600;
+
+  --transition: 0.4s;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.UiButton_button__Tvc4D {
+  min-width: 100px;
+
+  padding: 10px;
+  border-radius: 3px;
+
+  font-size: var(--font-size-small);
+  font-family: var(--font-family-main);
+  font-weight: var(--font-bold);
+
+  background: none;
+  outline: none;
+
+  transition: var(--transition);
+  cursor: pointer;
+}
+.UiButton_button__Tvc4D:disabled,
+.UiButton_button__Tvc4D:disabled:hover {
+  color: var(--color-gray);
+  background-color: transparent;
+  border-color: var(--color-gray);
+  cursor: default;
+}
+
+.UiButton_dark__6WZOc {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+
+.UiButton_dark__6WZOc:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.UiButton_light__rNS1E {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+}
+
+.UiButton_light__rNS1E:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+
+/*# sourceMappingURL=components-Ui-UiButton-UiButton-stories.c3c8f8fb.chunk.css.map*/

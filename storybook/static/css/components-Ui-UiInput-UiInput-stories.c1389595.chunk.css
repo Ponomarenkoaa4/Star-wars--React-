@@ -1,0 +1,70 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blue: #6a83fb;
+  --color-gray: #9c9c9c;
+  --color-lightgray: #dfe2df;
+
+  --font-size-small: 14px;
+  --font-size-medium: 14px;
+  --font-family-main: sans-serif;
+  --font-bold: 600;
+
+  --transition: 0.4s;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.UiInput_wrapper__input__bxWwn {
+  position: relative;
+  display: inline-flex;
+
+  --border-radius: 3px;
+  --border: 3px;
+  --clear-wight: 35px;
+}
+
+.UiInput_input__JK5pL {
+  min-width: 300px;
+  padding: 10px 15px;
+  padding-right: calc(var(--clear-wight)+15px);
+  border: var(--border) solid;
+  border-color: var(--color-lightgray);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-medium);
+  font-family: var(--font-family-main);
+  outline: none;
+}
+
+.UiInput_input__JK5pL:focus {
+  border-color: var(--color-blue);
+}
+
+.UiInput_clear__d4EbD {
+  position: absolute;
+  top: var(--border);
+  right: var(--border);
+  width: var(--clear-wight);
+  height: calc(100% - var(--border) * 2);
+  padding: 10px;
+  object-fit: contain;
+  object-position: center center;
+  transition: 0.5s;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.UiInput_clear__disabled__4\+xp8 {
+  opacity: 0.2;
+}
+
+
+/*# sourceMappingURL=components-Ui-UiInput-UiInput-stories.c1389595.chunk.css.map*/

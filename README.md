@@ -29,12 +29,6 @@ npm run build-storybook  # storybook build
 npm run build-gh-pages   # deploy on Github Pages
 ```
 
-```bash
-# Not used
-npm run eject            # remove the single build dependency
-npm run deploy-storybook # storybook deploy
-```
-
 ---
 
 ## 🦄 API
